@@ -2,7 +2,62 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>this is my 4 project</div>
+    <div>
+      <figure className="md:flex-row bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+  <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/1.jpg" alt="" width="384" height="512"/>
+  <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <blockquote>
+      <p className="text-lg font-medium">
+        “My name is Salaar, and I am an A.I developer. I love creating innovative solutions that make life easier and more efficient. My passion lies in harnessing the power of artificial intelligence to solve real-world problems and enhance user experiences.”
+      </p>
+    </blockquote>
+    <figcaption className="font-medium">
+      <div className="text-sky-500 dark:text-sky-400">
+        Salaar 
+      </div>
+      <div className="text-slate-700 dark:text-slate-500">
+        Salaar A.I developer
+      </div>
+    </figcaption>
+  </div>
+</figure>
+      <figure className="md:flex-row bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+  <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/1.jpg" alt="" width="384" height="512"/>
+  <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <blockquote>
+      <p className="text-lg font-medium">
+        “My name is Salaar, and I am an A.I developer. I love creating innovative solutions that make life easier and more efficient. My passion lies in harnessing the power of artificial intelligence to solve real-world problems and enhance user experiences.”
+      </p>
+    </blockquote>
+    <figcaption className="font-medium">
+      <div className="text-sky-500 dark:text-sky-400">
+        Salaar 
+      </div>
+      <div className="text-slate-700 dark:text-slate-500">
+        Salaar A.I developer
+      </div>
+    </figcaption>
+  </div>
+</figure>
+      <figure className="md:flex-row bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+  <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/1.jpg" alt="" width="384" height="512"/>
+  <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <blockquote>
+      <p className="text-lg font-medium">
+        “My name is Salaar, and I am an A.I developer. I love creating innovative solutions that make life easier and more efficient. My passion lies in harnessing the power of artificial intelligence to solve real-world problems and enhance user experiences.”
+      </p>
+    </blockquote>
+    <figcaption className="font-medium">
+      <div className="text-sky-500 dark:text-sky-400">
+        Salaar 
+      </div>
+      <div className="text-slate-700 dark:text-slate-500">
+        Salaar A.I developer
+      </div>
+    </figcaption>
+  </div>
+</figure>
+</div>
   )
 }
 
